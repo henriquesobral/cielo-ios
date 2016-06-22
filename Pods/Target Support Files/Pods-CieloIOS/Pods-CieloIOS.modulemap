@@ -1,0 +1,6 @@
+framework module Pods_CieloIOS {
+  umbrella header "Pods-CieloIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

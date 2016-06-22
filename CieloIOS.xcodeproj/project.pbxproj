@@ -10,6 +10,8 @@
 		2E9BE53B1D1ABEE300783699 /* CieloIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E9BE53A1D1ABEE300783699 /* CieloIOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E9BE5421D1ABEE300783699 /* CieloIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9BE5371D1ABEE300783699 /* CieloIOS.framework */; };
 		2E9BE5471D1ABEE300783699 /* CieloIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9BE5461D1ABEE300783699 /* CieloIOSTests.swift */; };
+		59ABE4BC0D311FC379831DD3 /* Pods_CieloIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398E916940B44E55BBE2DFB8 /* Pods_CieloIOSTests.framework */; };
+		B8D50F60C010C7169147210B /* Pods_CieloIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF370C55FF1D9C8D6D0685F /* Pods_CieloIOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +25,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0029172E09B9E94E1618889A /* Pods-CieloIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CieloIOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CieloIOSTests/Pods-CieloIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		1CF370C55FF1D9C8D6D0685F /* Pods_CieloIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CieloIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9BE5371D1ABEE300783699 /* CieloIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CieloIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9BE53A1D1ABEE300783699 /* CieloIOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CieloIOS.h; sourceTree = "<group>"; };
 		2E9BE53C1D1ABEE300783699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E9BE5411D1ABEE300783699 /* CieloIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CieloIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9BE5461D1ABEE300783699 /* CieloIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CieloIOSTests.swift; sourceTree = "<group>"; };
 		2E9BE5481D1ABEE300783699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		398E916940B44E55BBE2DFB8 /* Pods_CieloIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CieloIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E11C9D93A24EDE449FB55D /* Pods-CieloIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CieloIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CieloIOS/Pods-CieloIOS.release.xcconfig"; sourceTree = "<group>"; };
+		9C89171157956AFC9B6AA322 /* Pods-CieloIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CieloIOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CieloIOSTests/Pods-CieloIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6F7E94CAD6C4815F0D5ACEE /* Pods-CieloIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CieloIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CieloIOS/Pods-CieloIOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8D50F60C010C7169147210B /* Pods_CieloIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E9BE5421D1ABEE300783699 /* CieloIOS.framework in Frameworks */,
+				59ABE4BC0D311FC379831DD3 /* Pods_CieloIOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +66,8 @@
 				2E9BE5391D1ABEE300783699 /* CieloIOS */,
 				2E9BE5451D1ABEE300783699 /* CieloIOSTests */,
 				2E9BE5381D1ABEE300783699 /* Products */,
+				469963464AD1FE52747503A7 /* Pods */,
+				D9AB4382A8526E2A8651ECFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +98,26 @@
 			path = CieloIOSTests;
 			sourceTree = "<group>";
 		};
+		469963464AD1FE52747503A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6F7E94CAD6C4815F0D5ACEE /* Pods-CieloIOS.debug.xcconfig */,
+				80E11C9D93A24EDE449FB55D /* Pods-CieloIOS.release.xcconfig */,
+				9C89171157956AFC9B6AA322 /* Pods-CieloIOSTests.debug.xcconfig */,
+				0029172E09B9E94E1618889A /* Pods-CieloIOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9AB4382A8526E2A8651ECFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CF370C55FF1D9C8D6D0685F /* Pods_CieloIOS.framework */,
+				398E916940B44E55BBE2DFB8 /* Pods_CieloIOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -104,10 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E9BE54B1D1ABEE300783699 /* Build configuration list for PBXNativeTarget "CieloIOS" */;
 			buildPhases = (
+				2DB6AFA29D195E5CA434E14D /* [CP] Check Pods Manifest.lock */,
 				2E9BE5321D1ABEE300783699 /* Sources */,
 				2E9BE5331D1ABEE300783699 /* Frameworks */,
 				2E9BE5341D1ABEE300783699 /* Headers */,
 				2E9BE5351D1ABEE300783699 /* Resources */,
+				BAA28C9C4F34D7DB09035820 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E9BE54E1D1ABEE300783699 /* Build configuration list for PBXNativeTarget "CieloIOSTests" */;
 			buildPhases = (
+				7331D35B2A512845A9F44D72 /* [CP] Check Pods Manifest.lock */,
 				2E9BE53D1D1ABEE300783699 /* Sources */,
 				2E9BE53E1D1ABEE300783699 /* Frameworks */,
 				2E9BE53F1D1ABEE300783699 /* Resources */,
+				1C89369CB8E8BBE4AC504711 /* [CP] Embed Pods Frameworks */,
+				DAFDD4E373177A7F3E72261F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,6 +225,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C89369CB8E8BBE4AC504711 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CieloIOSTests/Pods-CieloIOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DB6AFA29D195E5CA434E14D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7331D35B2A512845A9F44D72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BAA28C9C4F34D7DB09035820 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CieloIOS/Pods-CieloIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAFDD4E373177A7F3E72261F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CieloIOSTests/Pods-CieloIOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2E9BE5321D1ABEE300783699 /* Sources */ = {
@@ -309,6 +424,7 @@
 		};
 		2E9BE54C1D1ABEE300783699 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6F7E94CAD6C4815F0D5ACEE /* Pods-CieloIOS.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -325,6 +441,7 @@
 		};
 		2E9BE54D1D1ABEE300783699 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80E11C9D93A24EDE449FB55D /* Pods-CieloIOS.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -341,6 +458,7 @@
 		};
 		2E9BE54F1D1ABEE300783699 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C89171157956AFC9B6AA322 /* Pods-CieloIOSTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CieloIOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -351,6 +469,7 @@
 		};
 		2E9BE5501D1ABEE300783699 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0029172E09B9E94E1618889A /* Pods-CieloIOSTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CieloIOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -378,6 +497,7 @@
 				2E9BE54D1D1ABEE300783699 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E9BE54E1D1ABEE300783699 /* Build configuration list for PBXNativeTarget "CieloIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -386,6 +506,7 @@
 				2E9BE5501D1ABEE300783699 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
